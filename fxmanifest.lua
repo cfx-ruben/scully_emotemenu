@@ -25,13 +25,15 @@ shared_scripts {
 
 client_scripts {
     'client/main.lua',
-    'client/menu.lua'
+    'client/nui_menu.lua'
 }
 
 server_scripts {
     'server/version_check.lua',
     'server/main.lua'
 }
+
+ui_page 'web/build/index.html'
 
 files {
     'locales/*.json',
@@ -55,8 +57,11 @@ files {
     'client/modules/placement.lua',
     'client/modules/point.lua',
     'client/modules/preview.lua',
+    'client/modules/nui.lua',
     'client/modules/ragdoll.lua',
-    'client/modules/stance.lua'
+    'client/modules/stance.lua',
+    "web/build/index.html",
+	"web/build/**/*",
 }
 
 data_file 'DLC_ITYP_REQUEST' 'stream/[Props]/[BzZzi]/bzzz_foodpack.ytyp'

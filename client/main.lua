@@ -1,4 +1,5 @@
 KVP = require 'client.modules.kvp'
+NUI = require 'client.modules.nui'
 Utils = require 'shared.modules.utils'
 Config = lib.load('shared.data.config')
 Walks = lib.load('shared.data.walks')
